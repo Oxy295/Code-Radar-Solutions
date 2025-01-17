@@ -1,10 +1,10 @@
 #include <stdio.h>
+int main(){
+    float num;
+    printf("Enter a floating-point number: ");
+    scanf("%f",&num);
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+    printf("You entered: %2f\n",num);
 
-int main() {
-    printf("%s", welcome());
     return 0;
 }
