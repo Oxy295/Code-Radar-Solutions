@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int digit;
-    scanf("%c",&digit);
-    printf("You entered: %c",digit);
+    scanf("%d",&digit);
+    printf("You entered: %d",digit);
     return 0;
 }
