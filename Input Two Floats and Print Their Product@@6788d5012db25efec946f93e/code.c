@@ -5,7 +5,7 @@ void main(){
     printf("Product: %f",product)
 }
 int main(){
-    scanf("%f %f",&num1,&num2);
+    scanf("%d %d",&num1,&num2);
     main();
     return 0;
 }
