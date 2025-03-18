@@ -18,7 +18,7 @@ int main() {
                return 0;
         }
         if (arr[j] > arr[j + 1]) {
-            printf("%d",arr[i]);
+            printf("%d",arr[j]);
             return 0; 
     }
     }
