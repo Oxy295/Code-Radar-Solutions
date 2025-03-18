@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, arr[100];
+    int n, arr[];
     scanf("%d", &n);
 
     for (int i = 0; i < n; i++) 
@@ -14,6 +14,6 @@ int main() {
         }
     }
 
-    printf("-1"); // No peak found
+    printf("-1"); 
     return 0;
 }
