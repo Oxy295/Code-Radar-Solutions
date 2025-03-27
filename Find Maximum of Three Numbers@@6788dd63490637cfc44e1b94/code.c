@@ -6,7 +6,7 @@ int main(){
         printf("%d",a);
     }
     else if(b>a>c || b>c>a){
-        printf("%d",b)
+        printf("%d",b);
     }
    else{
         printf("%d",c);
