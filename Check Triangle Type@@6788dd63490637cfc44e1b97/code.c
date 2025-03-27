@@ -5,3 +5,4 @@ int main(){
     if(a==b==c){
         printf("Equilateral");
     }
+}
