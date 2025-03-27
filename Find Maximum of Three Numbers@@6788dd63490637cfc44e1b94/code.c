@@ -11,5 +11,8 @@ int main(){
    else if(c>a>b || c>b>a){
         printf("%d",c);
     }
+    else{
+        printf("None");
+    }
     return 0;
 }
