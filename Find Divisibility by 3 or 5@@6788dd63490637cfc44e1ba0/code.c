@@ -2,13 +2,13 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if (a%5=0 && a%3=0){
+    if (a%5==0 && a%3==0){
         printf("Divisible by Both");
     }
-    else if(a%5=0){
+    else if(a%5==0){
         printf("Divible by 5");
     }
-    else if(a%3=0){
+    else if(a%3==0){
         printf("Divible by 3");
     }
     else{
